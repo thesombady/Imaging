@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div id="app">
+        <img src="Lysander.ico" alt = "LysanderV" width="30" height="30">
+        <h1>LysanderV GameEngine</h1>
+        <h2>Powered by Vlang</h2>
+    </div>
+    <div id="actions">
+        <button id="Mesh" onclick="MeshEditing()">Edit meshes</button>
+        <button id="Render" onclick="MakeRendering()">Make rendering</button>
+    </div>
+    <script>
+        function MeshEditing() {
+            window.location.href = "MeshEditing.html"
+        }
+        function MakeRendering() {
+            window.location.href = "MakeRendering.html"
+        }
+    </script>
+</body>
+</html>
